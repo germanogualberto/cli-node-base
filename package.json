@@ -1,0 +1,17 @@
+{
+  "name": "cli-node-base",
+  "description": "A base app to build a cli application using node",
+  "main": "cli.js",
+  "scripts": {
+    "start": "node cli",
+    "dev": "nodemon cli --ignore __tests__",
+    "test": "vitest --run --globals"
+  },
+  "type": "module",
+  "devDependencies": {
+    "vitest": "^0.28.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
